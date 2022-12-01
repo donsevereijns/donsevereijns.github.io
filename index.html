@@ -156,8 +156,8 @@
         let keycloakBaseUrl = searchParams.get("base_url") || "https://www.notrust.click";
         let keycloakUrl = keycloakBaseUrl + (searchParams.get("path") || "/auth");
 
-        let realm = searchParams.get("realm") || 'Pensioen';
-        let clientId = searchParams.get("client_id") || 'DC-client';
+        let realm = searchParams.get("realm") || 'pensioen';
+        let clientId = searchParams.get("client_id") || 'dc-client';
 
         let scope = searchParams.get("scope") || 'openid email';
 
